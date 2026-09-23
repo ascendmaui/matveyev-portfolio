@@ -22,7 +22,7 @@ const instrumentSerif = Instrument_Serif({
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const jetbrainsMono = JetBrains_Mono([
   variable: "--font-jetbrains-mono",
   subsets: ["latin"],
   display: "swap",
