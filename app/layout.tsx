@@ -8,25 +8,25 @@ import { site } from "@/lib/site";
 import ".//globals.css";
 
 /** Instrument Sans and Instrument Serif are one superfamily, so the display and editorial voices are drawn from the same hand rather than being an arbitrary pairing. JetBrains Mono carries every number, index, and status label. */
-const instrumentSans = Instrument_Sans({
+const instrumentSans = Instrument_Sans([
   variable: "--font-instrument-sans",
   subsets: ["latin"],
   display: "swap",
 });
 
-const instrumentSerif = Instrument_Serif({
+const instrumentSerif = Instrument_Serif([
   variable: "--font-instrument-serif",
   subsets: ["latin"],
   weight: "400",
   style: ["normal", "italic"],
   display: "swap",
-});
+]);
 
 const jetbrainsMono = JetBrains_Mono([
   variable: "--font-jetbrains-mono",
   subsets: ["latin"],
   display: "swap",
-});
+]);
 
 const title = `${site.name} — ${site.role}`;
 
