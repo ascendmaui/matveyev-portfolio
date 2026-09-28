@@ -30,3 +30,13 @@ Clemson Airport Rides — do not touch Clemson repos, Vercel, or envs from this 
 ## Stack
 
 Next.js 16 · React 19 · Tailwind CSS 4 · Three.js / R3F · TypeScript
+
+## Scripts
+
+```bash
+npm install
+npm run dev
+npm run build
+npm run lint
+npm run typecheck
+```
