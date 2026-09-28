@@ -2,6 +2,10 @@
   "name": "matveyev-portfolio",
   "version": "0.1.0",
   "private": true,
+  "description": "John Matveyev portfolio lander (matveyev.ai) \u2014 Next.js + React Three Fiber",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
